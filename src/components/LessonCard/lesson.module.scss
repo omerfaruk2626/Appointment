@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 4fr));
+    gap: 2.5rem;
+    background-image: linear-gradient(to right, #3a3452, #25a8c6);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0);
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 1rem;
+  }
+  
+  .card img {
+    width: 120px;
+    //   height: 150px;
+  }
+  
+  .title {
+    color: orange;
+    text-align: center;
+    padding: 1rem;
+  }
+  span {
+    color: rgb(219, 21, 219);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .variables {
+    color: orange;
+    font-size: 1.1rem;
+  }
+  
+  .btns {
+  //   border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    button {
+      width: 150px;
+      height: 2.5rem;
+    }
+  }
+  
